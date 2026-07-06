@@ -2,11 +2,11 @@
 
 ## Overview
 
-This lab covers the initial configuration of a Windows Server 2025 installation after deployment. The server was prepared for future infrastructure roles by configuring network settings and performing basic system configuration.
+This lab focuses on the initial configuration of a newly installed Windows Server 2025 virtual machine. The server was prepared for future infrastructure services by configuring basic network settings, reviewing server options, and verifying system configuration.
 
 ---
 
-# Lab Environment
+## Lab Environment
 
 | Component | Configuration |
 |-----------|---------------|
@@ -14,34 +14,35 @@ This lab covers the initial configuration of a Windows Server 2025 installation 
 | Host Operating System | Windows 10 |
 | Guest Operating System | Windows Server 2025 Standard Evaluation |
 | Virtual Machine | SERVER-01 |
-| Network | Bridged Adapter |
+| Network Adapter | Bridged Adapter |
 
 ---
 
-# Objectives
+## Objectives
 
 - Configure the server after installation
 - Assign a static IPv4 address
-- Configure DNS settings
-- Review SConfig options
+- Configure DNS client settings
+- Review Windows Server SConfig
+- Verify basic server configuration
 - Prepare the server for Active Directory deployment
 
 ---
 
-# Tasks Completed
+## Tasks Completed
 
 - Configured a static IPv4 address
-- Configured the default gateway
+- Configured the subnet mask and default gateway
 - Assigned temporary public DNS servers
-- Verified network settings
-- Reviewed Windows Server SConfig
-- Verified computer name (SERVER-01)
-- Enabled Remote Management
-- Enabled Remote Desktop
+- Reviewed SConfig settings
+- Verified the server name
+- Verified remote management settings
+- Verified Remote Desktop configuration
+- Prepared the server for Active Directory Domain Services (AD DS)
 
 ---
 
-# Network Configuration
+## Network Configuration
 
 | Setting | Value |
 |---------|-------|
@@ -51,11 +52,11 @@ This lab covers the initial configuration of a Windows Server 2025 installation 
 | Preferred DNS | 1.1.1.1 |
 | Alternate DNS | 8.8.8.8 |
 
-> **Note:** Public DNS servers were used temporarily during the initial configuration. After installing Active Directory and DNS Server, the Preferred DNS server was changed to the local DNS server.
+> **Note:** Public DNS servers were used only during the initial setup. After installing the DNS Server role, the Preferred DNS server was changed to the local DNS server.
 
 ---
 
-# Screenshots
+## Screenshots
 
 ### Static IPv4 Configuration
 
@@ -67,30 +68,30 @@ This lab covers the initial configuration of a Windows Server 2025 installation 
 
 ---
 
-# Skills Practiced
+## Skills Practiced
 
 - Windows Server Administration
 - Static IPv4 Configuration
 - DNS Client Configuration
+- TCP/IP Networking
 - Windows SConfig
-- Basic Network Configuration
-- Server Preparation
+- Basic Server Configuration
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Windows Server 2025
 - Oracle VirtualBox
-- IPv4 Networking
-- SConfig
+- IPv4
 - TCP/IP
+- SConfig
 
 ---
 
-# Outcome
+## Outcome
 
-The server was successfully configured with a static IP address and basic network settings. The operating system was prepared for installing infrastructure services such as Active Directory Domain Services (AD DS) and DNS Server.
+The Windows Server 2025 virtual machine was successfully configured with a static IP address and basic networking settings. The server is now ready for the installation of Active Directory Domain Services (AD DS), DNS Server, and other infrastructure roles.
 
 ---
 
