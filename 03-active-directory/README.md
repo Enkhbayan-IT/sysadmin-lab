@@ -60,13 +60,9 @@ This lab demonstrates the installation and configuration of Active Directory Dom
 
 ![AD DS Installation](screenshots/01-install-ad-ds.png)
 
-### Domain Controller Promotion
-
-![Domain Controller Promotion](screenshots/02-promote-domain-controller.png)
-
 ### Server Manager
 
-![Server Manager](screenshots/03-server-manager.png)
+![Server Manager](screenshots/02-server-manager.png)
 
 ---
 
