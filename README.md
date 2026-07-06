@@ -1,21 +1,17 @@
-# Windows Server System Administration Labs
+# Windows Server 2025 System Administration Lab
 
-This repository contains my hands-on Windows Server 2025 labs completed while studying System Administration.
+## Overview
 
-## Labs
-
-- Lab 01 - Windows Server Installation
-- Lab 02 - Initial Server Configuration
-- Lab 03 - Active Directory Domain Services
-- Lab 04 - DNS Server Installation
-- Lab 05 - DNS Records
+## Lab Environment
 
 ## Technologies
 
-- Windows Server 2025
-- Active Directory
-- DNS
-- DHCP
-- Group Policy
-- Oracle VirtualBox
-- PowerShell
+## Lab Structure
+
+## Skills Demonstrated
+
+## Screenshots
+
+## Future Labs
+
+## Author
