@@ -62,7 +62,7 @@ PerfMon can be used to monitor counters such as:
 - Disk performance
 - Network throughput
 
-![Performance Monitor](04-perfmon-startup-event-trace.png)
+![Performance Monitor](04-performance-monitor-counters.png)
 
 ## Troubleshooting Workflow
 
