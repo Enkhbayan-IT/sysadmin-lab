@@ -1,7 +1,7 @@
 # ***************************************
 # Script Name:Get-Systemifo.ps1
 # Description:xxxxxx
-# Author: Enkhbayan Altangerel
+# Author: Enkhbayan.A
 # Date: 19/08/2026
 # ***************************************
 Write-Host "=================================================" -ForegroundColor Cyan
