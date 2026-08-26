@@ -49,18 +49,3 @@ Write-Host "Run on : $computerName" -ForegroundColor Cyan
 Write-Host "=================================================" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "Script completed succesfully" -ForegroundColor Green
-
-
-# -eq = equal
-# -ne = not equal to
-# -gt = greater than
-# -lt = less than 
-# -ge = greater than or equal to
-# -le = less than or equal to
-
-# -like =Pattern matching
-# * = any kind of sign
-
-# Get-Service | Where-Object {$_.Status -eq "Stopped"} means Get all services then where-Object takes that then {}- Script block $_ -take variable inside the script block .-means which checking object like .Status .Name .Provider etc then -eq equal or something else then what kind of "string" last close the curl bracket } 
-
-# Get-PSDrive | Where-Object {$_.Provider -like "*FileSystem*"} | Select-Object Name, Used, Free
